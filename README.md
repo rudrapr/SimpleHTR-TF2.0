@@ -13,7 +13,7 @@ Install Anaconda in your system
 
 ### Installing
 
-From Anaconda prompt create an conda environment using the requirement.txt file or 
+From Anaconda prompt create a conda environment using the requirement.txt file or 
 
 ```
 conda create --name <env_name> --file requirements.txt
@@ -32,7 +32,7 @@ from the project ```src``` directory run commands
 
 ### Train the model
 
-Download the IAM dataset containing the training images and palace it inside the ```data``` directory.
+Download the IAM dataset containing the training images, unzip it and palace the ```words``` directory inside the ```data``` directory.
 for more information see [here](https://github.com/githubharald/SimpleHTR#train-model)
 
 ```python main.py --train```
